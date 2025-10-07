@@ -1,0 +1,96 @@
+body {
+    background-color: #333;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    right: 50px;
+    padding: 1rem 9%;
+    background-color: gray;
+    filter: drop-shadow(10px);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 23px;
+}
+
+nav a{
+    color: black;
+    font-size: 1.4rem;
+    margin-left:auto;
+    font-weight: 500;
+}
+nav a:hover {
+    color:aliceblue;
+    border-bottom: 3px solid red;
+    transform: scale(1.1);
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 5px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+nav a.home:hover {
+  background-color: whitesmoke;
+  color: #ff33cc;
+}
+
+nav a.about:hover {
+  background-color: whitesmoke;
+  color: #0077cc;
+}
+
+nav a.skills:hover {
+  background-color: whitesmoke;
+  color: #cc3300;
+}
+
+nav a.certification:hover {
+  background-color: whitesmoke;
+  color: #009933;
+  
+}
+
+nav a.projects:hover {
+  background-color:whitesmoke;
+  color: #ff6600;
+}
+
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.photo img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+img {
+  height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    position: relative;
+} 
